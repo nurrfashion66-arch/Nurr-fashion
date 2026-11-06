@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NURR FASHION</title>
+  <meta name="description" content="NURR FASHION - Your Style, Your Choice">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial,Helvetica,sans-serif;background:#faf8f5;color:#222;line-height:1.6}
+    header{background:#111;color:#fff;position:sticky;top:0;z-index:10}
+    .nav{max-width:1100px;margin:auto;padding:16px 20px;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-size:24px;font-weight:800;letter-spacing:2px}
+    nav a{color:#fff;text-decoration:none;margin-left:22px;font-size:14px}
+    .hero{min-height:520px;display:flex;align-items:center;justify-content:center;text-align:center;padding:50px 20px;
+      background:linear-gradient(135deg,#eee6dc,#fff)}
+    .hero h1{font-size:clamp(42px,10vw,76px);letter-spacing:5px;margin-bottom:10px}
+    .hero p{font-size:18px;color:#666;margin-bottom:25px}
+    .btn{display:inline-block;background:#111;color:#fff;padding:13px 25px;border-radius:4px;text-decoration:none;font-weight:700}
+    section{max-width:1100px;margin:auto;padding:70px 20px}
+    .title{text-align:center;margin-bottom:35px}
+    .title h2{font-size:32px;margin-bottom:8px}
+    .title p{color:#777}
+    .products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .card{background:#fff;border:1px solid #eee;border-radius:10px;overflow:hidden;box-shadow:0 8px 25px rgba(0,0,0,.05)}
+    .photo{height:260px;background:#e9e1d8;display:flex;align-items:center;justify-content:center;color:#777;font-size:18px}
+    .info{padding:20px}
+    .info h3{margin-bottom:6px}
+    .price{font-weight:800;margin:10px 0 16px}
+    .about{background:#111;color:#fff;max-width:none}
+    .about-inner{max-width:900px;margin:auto;text-align:center;padding:70px 20px}
+    .about p{color:#ddd}
+    .contact{text-align:center}
+    .whatsapp{background:#25D366;margin-left:8px}
+    footer{background:#111;color:#aaa;text-align:center;padding:25px 15px;font-size:14px}
+    @media(max-width:700px){nav a{margin-left:10px;font-size:12px}.products{grid-template-columns:1fr}.hero{min-height:450px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="logo">NURR FASHION</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div>
+    <h1>NURR FASHION</h1>
+    <p>Your Style, Your Choice</p>
+    <a class="btn" href="#shop">Shop Now</a>
+  </div>
+</section>
+
+<section id="shop">
+  <div class="title">
+    <h2>Featured Collection</h2>
+    <p>আপনার পছন্দের ফ্যাশন কালেকশন</p>
+  </div>
+  <div class="products">
+    <article class="card">
+      <div class="photo">Product Image</div>
+      <div class="info">
+        <h3>Fashion Item 01</h3>
+        <p>সুন্দর ও স্টাইলিশ কালেকশন</p>
+        <div class="price">৳ 999</div>
+        <a class="btn" href="https://wa.me/8801XXXXXXXXX?text=আমি%20Fashion%20Item%2001%20অর্ডার%20করতে%20চাই">WhatsApp Order</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="photo">Product Image</div>
+      <div class="info">
+        <h3>Fashion Item 02</h3>
+        <p>নতুন ডিজাইনের কালেকশন</p>
+        <div class="price">৳ 1,299</div>
+        <a class="btn" href="https://wa.me/8801XXXXXXXXX?text=আমি%20Fashion%20Item%2002%20অর্ডার%20করতে%20চাই">WhatsApp Order</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="photo">Product Image</div>
+      <div class="info">
+        <h3>Fashion Item 03</h3>
+        <p>ট্রেন্ডি ও আকর্ষণীয় কালেকশন</p>
+        <div class="price">৳ 1,499</div>
+        <a class="btn" href="https://wa.me/8801XXXXXXXXX?text=আমি%20Fashion%20Item%2003%20অর্ডার%20করতে%20চাই">WhatsApp Order</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="title"><h2>About NURR FASHION</h2></div>
+    <p>NURR FASHION-এ স্বাগতম। আপনার স্টাইল ও পছন্দকে সামনে রেখে আমরা আধুনিক ফ্যাশন কালেকশন উপস্থাপন করি। নতুন কালেকশন ও অফারের জন্য আমাদের পেজের সঙ্গে যুক্ত থাকুন।</p>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="title">
+    <h2>Contact Us</h2>
+    <p>অর্ডার বা তথ্যের জন্য আমাদের সঙ্গে যোগাযোগ করুন।</p>
+  </div>
+  <a class="btn whatsapp" href="https://wa.me/8801XXXXXXXXX">WhatsApp</a>
+  <a class="btn" href="#">Facebook Page</a>
+</section>
+</main>
+
+<footer>
+  © 2026 NURR FASHION — All Rights Reserved.
+</footer>
+</body>
+</html>
